@@ -1,0 +1,658 @@
+{
+ "format": "bunsbox-map",
+ "version": 1,
+ "meta": {
+  "name": "bowling alley",
+  "description": "a bowling alley",
+  "author": "numbskull"
+ },
+ "env": {
+  "sky": "#8ecbff",
+  "fog": [
+   "#a9d4f5",
+   80,
+   280
+  ],
+  "hemi": [
+   "#cfe8ff",
+   "#4d6b3a",
+   1.1
+  ],
+  "sun": "#fff1d0",
+  "sunI": 2.4
+ },
+ "parts": [
+  {
+   "shape": "box",
+   "pos": [
+    0,
+    -1,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    100,
+    2,
+    100
+   ],
+   "tex": "woodplanks.png",
+   "color": "#ffffff",
+   "tile": 10,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    49,
+    0.5,
+    2
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2,
+    29.25,
+    130.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 2,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -49.5,
+    0.5,
+    3
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2,
+    29.25,
+    130.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 2,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -6.5,
+    0.5,
+    48
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "size": [
+    2,
+    29.25,
+    130.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 2,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -5.5,
+    0.5,
+    -49
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "size": [
+    2,
+    29.25,
+    130.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 2,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    23.5,
+    0,
+    3.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    97.25,
+    1,
+    0.1
+   ],
+   "tex": "metalplates.png",
+   "color": "#4d4d4d",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    24.5,
+    0,
+    11.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    97.25,
+    1,
+    0.1
+   ],
+   "tex": "metalplates.png",
+   "color": "#4d4d4d",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    44,
+    0.5,
+    5.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    44,
+    0.5,
+    6.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    44,
+    0.5,
+    7.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    44,
+    0.5,
+    8.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    44,
+    0.5,
+    9.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    45,
+    0.5,
+    8.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    45,
+    0.5,
+    7.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    45,
+    0.5,
+    6.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    46,
+    0.5,
+    7.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "tex": "concreteground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -34.5,
+    0.5,
+    6
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -33.5,
+    0.5,
+    7
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -32.5,
+    0.5,
+    8
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -31.5,
+    0.5,
+    9
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -30.5,
+    0.5,
+    10
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -29.5,
+    0.5,
+    11
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -28.5,
+    0.5,
+    12
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    -27.5,
+    0.5,
+    13
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "tex": "concretewall.png",
+   "color": "#787878",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 50,
+   "damage": 30,
+   "bouncy": true
+  }
+ ],
+ "props": [],
+ "spawns": [
+  [
+   -41.5,
+   1.5,
+   0
+  ]
+ ]
+}
