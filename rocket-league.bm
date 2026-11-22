@@ -1,0 +1,764 @@
+{
+ "format": "bunsbox-map",
+ "version": 1,
+ "meta": {
+  "name": "rocket league",
+  "description": "if you don't know what rocket league is basically you play soccer with go karts",
+  "author": "numbskull"
+ },
+ "env": {
+  "sky": "#8ecbff",
+  "fog": [
+   "#a9d4f5",
+   80,
+   280
+  ],
+  "hemi": [
+   "#cfe8ff",
+   "#4d6b3a",
+   1.1
+  ],
+  "sun": "#fff1d0",
+  "sunI": 2.4
+ },
+ "parts": [
+  {
+   "shape": "box",
+   "pos": [
+    83.5,
+    0.5,
+    -15.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.25,
+    27,
+    163.5
+   ],
+   "tex": "metalplates.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -75,
+    0.5,
+    -14.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.25,
+    27,
+    163.5
+   ],
+   "tex": "metalplates.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    2.5,
+    0.5,
+    -49.5
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "size": [
+    0.25,
+    27,
+    163.5
+   ],
+   "tex": "metalplates.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    3.5,
+    0.5,
+    50
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "size": [
+    0.25,
+    27,
+    163.5
+   ],
+   "tex": "metalplates.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    1,
+    -0.5,
+    50
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    370.75,
+    1,
+    400.5
+   ],
+   "tex": "grassground.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    70,
+    9,
+    3.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    8,
+    119.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    70,
+    -8.5,
+    91
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    27,
+    163.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    70,
+    -8.5,
+    -91.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    27,
+    163.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -61.5,
+    9,
+    4.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    8,
+    119.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -61.5,
+    -8.5,
+    -91.5
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    27,
+    163.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -61.5,
+    -8.5,
+    91
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    27,
+    163.75
+   ],
+   "tex": "concretewall.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -53.5,
+    0.5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.25,
+    9.5,
+    22.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -52,
+    5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    0.5,
+    22.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -52,
+    2,
+    11
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    5.5,
+    0.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    -52,
+    2,
+    -11
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    5.5,
+    0.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    53.5,
+    0.5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    0.25,
+    9.5,
+    22.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    52,
+    2,
+    -11
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    5.5,
+    0.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    52,
+    2,
+    11
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    5.5,
+    0.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "box",
+   "pos": [
+    52,
+    5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    2.75,
+    0.5,
+    22.5
+   ],
+   "tex": "rustymetal.png",
+   "color": "#ffffff",
+   "tile": 4,
+   "anchored": true,
+   "collide": true,
+   "mass": 10,
+   "damage": 0,
+   "bouncy": false
+  },
+  {
+   "shape": "sphere",
+   "pos": [
+    0,
+    2,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    4,
+    4,
+    4
+   ],
+   "tex": "concretewall.png",
+   "color": "#474747",
+   "tile": 4,
+   "anchored": false,
+   "collide": true,
+   "mass": 0.1,
+   "damage": 0,
+   "bouncy": true
+  }
+ ],
+ "props": [
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    -5
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    -3
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    -1
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    1
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    3
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    -66.5,
+    0.5,
+    5
+   ],
+   "rot": [
+    0,
+    -90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    5
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    3
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    1
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    -1
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    -3
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  },
+  {
+   "key": "kart",
+   "pos": [
+    79,
+    0.5,
+    -5
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "anchored": false,
+   "mass": 20,
+   "damage": 0,
+   "bouncy": true
+  }
+ ],
+ "spawns": [
+  [
+   -72,
+   2,
+   0
+  ],
+  [
+   81,
+   2,
+   0
+  ]
+ ]
+}
